@@ -34,7 +34,8 @@ Add the following dependency to your `settings.gradle`:
 ## 🚀 Usage Guide
 
 ### **🔹 Step 1: Initialize the Library**
-```PermissionManager permissionManager = new PermissionManager(context);
+```
+PermissionManager permissionManager = new PermissionManager(context);
 ```
 ### **🔹 Step 2: Creating a User**
 ```permissionManager.createUser("john_doe", new PermissionManager.UserCreationCallback() {
